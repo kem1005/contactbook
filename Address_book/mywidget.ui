@@ -13,13 +13,145 @@
   <property name="windowTitle">
    <string>Mywidget</string>
   </property>
+  <widget class="QWidget" name="horizontalLayoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>10</y>
+     <width>701</width>
+     <height>50</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="buttonLayout">
+    <item>
+     <widget class="QPushButton" name="pushButton_4">
+      <property name="minimumSize">
+       <size>
+        <width>0</width>
+        <height>40</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+QPushButton:hover {
+    background-color: #45a049;
+}
+QPushButton:pressed {
+    background-color: #3d8b40;
+}</string>
+      </property>
+      <property name="text">
+       <string>新增</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="pushButton_3">
+      <property name="minimumSize">
+       <size>
+        <width>0</width>
+        <height>40</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+    background-color: #2196F3;
+    color: white;
+    border: none;
+    padding: 10px;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+QPushButton:hover {
+    background-color: #0b7dda;
+}
+QPushButton:pressed {
+    background-color: #0a6bc4;
+}</string>
+      </property>
+      <property name="text">
+       <string>匯出</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="pushButton_6">
+      <property name="minimumSize">
+       <size>
+        <width>0</width>
+        <height>40</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+    background-color: #FF9800;
+    color: white;
+    border: none;
+    padding: 10px;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+QPushButton:hover {
+    background-color: #e68900;
+}
+QPushButton:pressed {
+    background-color: #cc7a00;
+}</string>
+      </property>
+      <property name="text">
+       <string>匯入</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="pushButton_5">
+      <property name="minimumSize">
+       <size>
+        <width>0</width>
+        <height>40</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+    background-color: #f44336;
+    color: white;
+    border: none;
+    padding: 10px;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+QPushButton:hover {
+    background-color: #da190b;
+}
+QPushButton:pressed {
+    background-color: #c41509;
+}</string>
+      </property>
+      <property name="text">
+       <string>結束</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
   <widget class="QTableWidget" name="tableWidget">
    <property name="geometry">
     <rect>
-     <x>110</x>
-     <y>30</y>
-     <width>601</width>
-     <height>101</height>
+     <x>50</x>
+     <y>80</y>
+     <width>701</width>
+     <height>150</height>
     </rect>
    </property>
   </widget>
@@ -27,9 +159,9 @@
    <property name="geometry">
     <rect>
      <x>50</x>
-     <y>160</y>
-     <width>671</width>
-     <height>211</height>
+     <y>250</y>
+     <width>701</width>
+     <height>180</height>
     </rect>
    </property>
    <layout class="QFormLayout" name="formLayout">
@@ -72,42 +204,6 @@
     </item>
     <item row="3" column="1">
      <widget class="QLineEdit" name="lineEdit_4"/>
-    </item>
-    <item row="5" column="1">
-     <layout class="QGridLayout" name="gridLayout_3">
-      <item row="0" column="1">
-       <widget class="QPushButton" name="pushButton_5">
-        <property name="text">
-         <string>結束</string>
-        </property>
-       </widget>
-      </item>
-      <item row="0" column="0">
-       <widget class="QPushButton" name="pushButton_6">
-        <property name="text">
-         <string>匯入</string>
-        </property>
-       </widget>
-      </item>
-     </layout>
-    </item>
-    <item row="4" column="1">
-     <layout class="QGridLayout" name="gridLayout_2">
-      <item row="0" column="1">
-       <widget class="QPushButton" name="pushButton_3">
-        <property name="text">
-         <string>匯出</string>
-        </property>
-       </widget>
-      </item>
-      <item row="0" column="0">
-       <widget class="QPushButton" name="pushButton_4">
-        <property name="text">
-         <string>新增</string>
-        </property>
-       </widget>
-      </item>
-     </layout>
     </item>
    </layout>
   </widget>
